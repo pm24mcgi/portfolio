@@ -11760,3 +11760,24 @@ body {
   height: 5rem;
   margin: .5rem;
 }
+
+.connect-with-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-with-me-text {
+  color:#3dff94;
+  margin-bottom: 2rem;
+}
+
+.connect-with-me-links {
+  height: 4rem;
+  width: auto;
+}
+
+.connect-with-me-links:hover {
+  color:#3dff94;
+}
