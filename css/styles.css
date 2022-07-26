@@ -11698,3 +11698,46 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.intro-header {
+  font-family: monospace;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.intro-header-accent-text {
+  color: #3dff94;
+}
+
+.technologies-div {
+  height: .5rem;
+  background-color: #0e525e;
+}
+
+.technologies-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+}
+
+.technologies-header {
+  font-family: monospace;
+  font-size: 2rem;
+  border-bottom: .20rem solid black;
+  margin: 3rem;
+
+}
+
+.tech-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-img {
+  height: 5rem;
+  margin: .5rem;
+}
