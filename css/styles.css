@@ -608,6 +608,17 @@ progress {
   margin-bottom: 5rem;
 }
 
+.img-fluid-proj {
+  max-width: 100%;
+  height: auto;
+}
+
+.proj-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7963,6 +7974,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-90 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, .8) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11565,7 +11581,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 95%), url("../assets/personal/toriflyfishingbw.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/personal/toriflyfishingbw.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
